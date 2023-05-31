@@ -1,0 +1,12 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+img {
+  width: 50%;
+  border-radius: 10px;
+}

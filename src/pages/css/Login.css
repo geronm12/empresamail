@@ -1,0 +1,33 @@
+.cont {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #212529;
+  min-width: 300px;
+  min-height: 300px;
+  justify-content: space-evenly;
+  border: 1px solid white;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #212529;
+  color: white;
+  outline: none;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:focus {
+  background-color: white;
+  border-bottom: 2px solid #f5cc16;
+  color: black;
+}
+
+.items-center {
+  min-height: 720px;
+  min-width: 1280px;
+  align-items: center !important;
+}
